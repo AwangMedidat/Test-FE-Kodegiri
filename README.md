@@ -10,7 +10,7 @@ if you want run, just typing:
 
 We suggest that you begin change directory and typing:\*
 
-### `cd development test`
+### `cd development-test`
 
 ## Development Environment
 
