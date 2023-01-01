@@ -2,14 +2,14 @@
 
 # 1. Logical Test
 
-if you want run, just typing :
+if you want run, just typing:
 
 `node Logical-Test.js`
 
 # 2. Development Test
 
-We suggest that you begin change directory:
-cd `development test`
+We suggest that you begin change directory and typing:
+`cd development test`
 
 ## Development Environment
 
