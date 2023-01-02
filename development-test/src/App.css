@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(255, 251, 251);
+  height: 100px;
+  box-shadow: 1px 5px lightgrey;
+}
+.photo-div {
+  float: left;
+  margin: 30px;
+  position: relative;
+}
+.photo-div img {
+  width: 50px;
+  color: red;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
