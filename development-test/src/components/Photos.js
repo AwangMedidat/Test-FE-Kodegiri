@@ -1,12 +1,8 @@
-import { photos, detailPhoto } from "../redux/action";
-import { useDispatch, useSelector } from "react-redux";
-import { Card, Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Photos = () => {
-  const dispatch = useDispatch();
   let data = useSelector((state) => state.photos);
-  console.warn("data in main", data);
+
   return (
     <div>
       <div className="d-flex justify-content-end">

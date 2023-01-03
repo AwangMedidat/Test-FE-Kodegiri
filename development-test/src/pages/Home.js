@@ -1,6 +1,5 @@
 import { useEffect } from "react";
-import { Container } from "react-bootstrap";
-import { useDispatch} from "react-redux";
+import { useDispatch } from "react-redux";
 import Photos from "../components/Photos";
 import { photos } from "../redux/action";
 

@@ -7,7 +7,6 @@ export const photos = () => {
 };
 
 export const searchPhoto = (data) => {
-  console.warn("action is called", data);
   return {
     type: SEARCH_PHOTO,
     data,
@@ -15,7 +14,6 @@ export const searchPhoto = (data) => {
 };
 
 export const detailPhoto = (data) => {
-  console.warn("action detail is called", data);
   return {
     type: DETAIL_PHOTO,
     data,
